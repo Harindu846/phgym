@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #121212;
+    color: #fff;
+  }
+  
+  .contact-section {
+    display: flex;
+    min-height: 100vh;
+    padding: 60px 10%;
+    background: linear-gradient(90deg, #000 50%, #1a1a1a 50%);
+  }
+  
+  .contact-info {
+    flex: 1;
+    padding-right: 60px;
+  }
+  
+  .contact-info h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h1 span {
+    color: #f97316;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    color: #c9c9c9;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .contact-form {
+    flex: 1;
+    background: #1f1f1f;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(255, 115, 0, 0.2);
+  }
+  
+  .contact-form h2 {
+    color: #f97316;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    background: #2a2a2a;
+    border: none;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .contact-form button {
+    background: #f97316;
+    border: 2px solid #f97316;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    transition: .5s;
+  }
+  
+  .contact-form button:hover {
+    background: transparent;
+    transform: scale(1.05);
+    color: #f97316;
+  }
+  
